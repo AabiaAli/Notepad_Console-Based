@@ -1,8 +1,8 @@
-#Console Notepad (C++)
-##Overview
+# Console Notepad (C++)
+## Overview
 This project implements a basic text editor in the Windows console using C++. It supports typing, file loading and saving, undo/redo, word search, and autocomplete functionality. It is built without using arrays, strings, or STL containers.
 
-##Features
+## Features
 • Text Editing: Type characters into the editor with support for multiple lines.
 • Cursor Movement: Move the cursor using arrow keys.
 • Undo/Redo: Press Tab to undo and Shift to redo recent changes.
@@ -12,8 +12,8 @@ This project implements a basic text editor in the Windows console using C++. It
 • New File: Start a new blank file with option 1.
 • Exit: Exit using option 4 or press ESC in the editor to return to menu.
 
-##Editor Instructions
-###Controls:
+## Editor Instructions
+### Controls:
 • Arrow keys — Move cursor
 • Enter — Add new line
 • Backspace — Delete character
@@ -24,20 +24,20 @@ This project implements a basic text editor in the Windows console using C++. It
 • 1-9 — Select a suggestion
 • ESC — Exit editing and return to menu
 
-###Menu Options:
+### Menu Options:
 - New File
 - Load File
 - Save File
 - Exit
 
-##Text Interface
+## Text Interface
 The editor is purely console-based and uses ASCII text for display. There are no graphics or GUI windows.
 
-##Build Instructions
+## Build Instructions
 • Windows OS required
 • Compile using any standard C++ compiler with WinAPI support
 • Example using g++:
 g++ -o notepad main.cpp Notepad.cpp -lstdc++fs
 
-##License
+## License
 This project is free to use and modify. Made for learning and educational purposes.
